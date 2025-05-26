@@ -1,0 +1,6 @@
+@DHouseMvp_HostAddress = http://localhost:5189
+
+GET {{DHouseMvp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

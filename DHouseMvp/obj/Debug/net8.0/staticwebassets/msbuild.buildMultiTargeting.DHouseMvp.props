@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DHouseMvp.props" />
+</Project>

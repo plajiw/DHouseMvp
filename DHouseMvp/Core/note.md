@@ -1,0 +1,1 @@
+**Objetivo**: definir o modelo de domínio puro, sem depender de frameworks ou detalhes de infraestrutura
