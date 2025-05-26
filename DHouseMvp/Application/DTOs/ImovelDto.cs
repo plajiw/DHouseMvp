@@ -1,9 +1,8 @@
-// Application/DTOs/ImovelDto.cs
 using System.ComponentModel.DataAnnotations;
 
-namespace DHouseMvp.Application.DTOs // Ensure this namespace is correct
+namespace DHouseMvp.Application.DTOs // Ensure this namespace
 {
-    public class ImovelDto // Ensure this class name is correct
+    public class ImovelDto // Ensure this class name
     {
         [Required, MaxLength(100)]
         public string Titulo { get; set; }

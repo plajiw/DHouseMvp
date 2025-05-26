@@ -1,8 +1,8 @@
 using System;
 
-namespace DHouseMvp.Application.DTOs // Ensure this namespace is correct
+namespace DHouseMvp.Application.DTOs
 {
-    public class ImovelResponseDto // Ensure this class name is correct
+    public class ImovelResponseDto
     {
         public int Id { get; set; }
         public string Titulo { get; set; }

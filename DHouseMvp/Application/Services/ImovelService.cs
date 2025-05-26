@@ -1,14 +1,14 @@
-// Application/Services/ImovelService.cs
 using System.Collections.Generic;
+using System.Linq; // For ProjectTo
 using System.Threading.Tasks;
 using AutoMapper;
-using DHouseMvp.Application.DTOs;
+using AutoMapper.QueryableExtensions; // For ProjectTo
+using DHouseMvp.Application.DTOs;    // Crucial: Ensure this is present and NOT duplicated
 using DHouseMvp.Application.Interfaces;
 using DHouseMvp.Core.Entities;
 using DHouseMvp.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using System.Linq; // Required for ProjectTo
-using DHouseMvp.Application.DTOs;
+using Microsoft.Extensions.Logging; // Optional: For logging
 
 namespace DHouseMvp.Application.Services
 {
@@ -16,55 +16,73 @@ namespace DHouseMvp.Application.Services
     {
         private readonly ApplicationDbContext _ctx;
         private readonly IMapper _mapper;
+        private readonly ILogger<ImovelService> _logger; // Optional
 
-        public ImovelService(ApplicationDbContext ctx, IMapper mapper)
+        public ImovelService(ApplicationDbContext ctx, IMapper mapper, ILogger<ImovelService> logger) // Optional: Add logger
         {
             _ctx = ctx;
             _mapper = mapper;
+            _logger = logger; // Optional
         }
 
         public async Task<List<ImovelResponseDto>> GetAllAsync()
-            => await _ctx.Imoveis
-                         .AsNoTracking() // Good practice for read-only queries
-                         .ProjectTo<ImovelResponseDto>(_mapper.ConfigurationProvider)
-                         .ToListAsync();
+        {
+            _logger?.LogInformation("Getting all Imoveis");
+            return await _ctx.Imoveis
+                             .AsNoTracking()
+                             .ProjectTo<ImovelResponseDto>(_mapper.ConfigurationProvider)
+                             .ToListAsync();
+        }
 
         public async Task<ImovelResponseDto> GetByIdAsync(int id)
         {
-            var entity = await _ctx.Imoveis.FindAsync(id);
-            return _mapper.Map<ImovelResponseDto>(entity); // AutoMapper handles null to null mapping
-        }
-
-        public async Task<ImovelResponseDto> CreateAsync(ImovelDto dto)
-        {
-            var entity = _mapper.Map<Imovel>(dto);
-            _ctx.Imoveis.Add(entity);
-            await _ctx.SaveChangesAsync();
+            _logger?.LogInformation("Getting Imovel by Id: {Id}", id);
+            var entity = await _ctx.Imoveis.AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
+            if (entity == null)
+            {
+                _logger?.LogWarning("Imovel with Id: {Id} not found.", id);
+                return null;
+            }
             return _mapper.Map<ImovelResponseDto>(entity);
         }
 
-        public async Task<ImovelResponseDto> UpdateAsync(int id, ImovelDto dto)
+        public async Task<ImovelResponseDto> CreateAsync(ImovelDto dto) // Uses ImovelDto
         {
+            _logger?.LogInformation("Creating new Imovel");
+            var entity = _mapper.Map<Imovel>(dto);
+            _ctx.Imoveis.Add(entity);
+            await _ctx.SaveChangesAsync();
+            _logger?.LogInformation("Imovel created with Id: {Id}", entity.Id);
+            return _mapper.Map<ImovelResponseDto>(entity);
+        }
+
+        public async Task<ImovelResponseDto> UpdateAsync(int id, ImovelDto dto) // Uses ImovelDto
+        {
+            _logger?.LogInformation("Updating Imovel with Id: {Id}", id);
             var entity = await _ctx.Imoveis.FindAsync(id);
             if (entity == null)
             {
-                return null; // Or throw a NotFoundException
+                _logger?.LogWarning("Imovel with Id: {Id} not found for update.", id);
+                return null;
             }
-
-            _mapper.Map(dto, entity); // Update existing entity
+            _mapper.Map(dto, entity);
             await _ctx.SaveChangesAsync();
+            _logger?.LogInformation("Imovel with Id: {Id} updated.", id);
             return _mapper.Map<ImovelResponseDto>(entity);
         }
 
         public async Task<bool> DeleteAsync(int id)
         {
+            _logger?.LogInformation("Deleting Imovel with Id: {Id}", id);
             var entity = await _ctx.Imoveis.FindAsync(id);
             if (entity == null)
             {
+                _logger?.LogWarning("Imovel with Id: {Id} not found for deletion.", id);
                 return false;
             }
             _ctx.Imoveis.Remove(entity);
             await _ctx.SaveChangesAsync();
+            _logger?.LogInformation("Imovel with Id: {Id} deleted.", id);
             return true;
         }
     }

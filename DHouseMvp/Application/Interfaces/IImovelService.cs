@@ -1,8 +1,6 @@
-// Application/Interfaces/IImovelService.cs
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using DHouseMvp.Core.Entities; // Keep this if services sometimes work with entities internally
-using DHouseMvp.Application.DTOs;
+using DHouseMvp.Application.DTOs; // Crucial: Add this using directive
 
 namespace DHouseMvp.Application.Interfaces
 {
@@ -10,8 +8,8 @@ namespace DHouseMvp.Application.Interfaces
     {
         Task<List<ImovelResponseDto>> GetAllAsync();
         Task<ImovelResponseDto> GetByIdAsync(int id);
-        Task<ImovelResponseDto> CreateAsync(ImovelDto dto);
-        Task<ImovelResponseDto> UpdateAsync(int id, ImovelDto dto);
+        Task<ImovelResponseDto> CreateAsync(ImovelDto dto); // Uses ImovelDto
+        Task<ImovelResponseDto> UpdateAsync(int id, ImovelDto dto); // Uses ImovelDto
         Task<bool> DeleteAsync(int id);
     }
 }

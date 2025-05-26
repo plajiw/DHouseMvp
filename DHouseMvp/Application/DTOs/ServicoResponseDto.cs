@@ -1,6 +1,6 @@
-namespace DHouseMvp.Application.DTOs // Ensure this namespace is correct
+namespace DHouseMvp.Application.DTOs
 {
-    public class ServicoResponseDto // Ensure this class name is correct
+    public class ServicoResponseDto
     {
         public int Id { get; set; }
         public string Nome { get; set; }

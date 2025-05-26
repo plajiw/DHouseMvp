@@ -2,7 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using DHouseMvp.Application.Interfaces;
-using DHouseMvp.Application.DTOs; // THIS LINE MUST BE PRESENT
+using DHouseMvp.Application.DTOs; // Crucial: Add this using directive
+using Microsoft.AspNetCore.Http; // For StatusCodes
 
 namespace DHouseMvp.API.Controllers
 {
@@ -16,27 +17,27 @@ namespace DHouseMvp.API.Controllers
             => _service = service;
 
         [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<ImovelResponseDto>))]
         public async Task<ActionResult<List<ImovelResponseDto>>> GetAll()
             => Ok(await _service.GetAllAsync());
 
         [HttpGet("{id}")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ImovelResponseDto))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<ImovelResponseDto>> GetById(int id)
         {
             var imovel = await _service.GetByIdAsync(id);
             if (imovel == null)
             {
-                return NotFound();
+                return NotFound($"Imovel with ID {id} not found.");
             }
             return Ok(imovel);
         }
 
         [HttpPost]
-        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(ImovelResponseDto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<ImovelResponseDto>> Create([FromBody] ImovelDto dto) // Error here if ImovelDto not found
+        public async Task<ActionResult<ImovelResponseDto>> Create([FromBody] ImovelDto dto) // Uses ImovelDto
         {
             if (!ModelState.IsValid)
             {
@@ -47,10 +48,10 @@ namespace DHouseMvp.API.Controllers
         }
 
         [HttpPut("{id}")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ImovelResponseDto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<ImovelResponseDto>> Update(int id, [FromBody] ImovelDto dto) // Error here if ImovelDto not found
+        public async Task<ActionResult<ImovelResponseDto>> Update(int id, [FromBody] ImovelDto dto) // Uses ImovelDto
         {
             if (!ModelState.IsValid)
             {
@@ -59,7 +60,7 @@ namespace DHouseMvp.API.Controllers
             var updatedImovel = await _service.UpdateAsync(id, dto);
             if (updatedImovel == null)
             {
-                return NotFound();
+                return NotFound($"Imovel with ID {id} not found.");
             }
             return Ok(updatedImovel);
         }
@@ -72,7 +73,7 @@ namespace DHouseMvp.API.Controllers
             var success = await _service.DeleteAsync(id);
             if (!success)
             {
-                return NotFound();
+                return NotFound($"Imovel with ID {id} not found.");
             }
             return NoContent();
         }
