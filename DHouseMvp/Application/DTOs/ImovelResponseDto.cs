@@ -1,19 +1,14 @@
-// Application/DTOs/ImovelDto.cs
-using System.ComponentModel.DataAnnotations;
+using System;
 
 namespace DHouseMvp.Application.DTOs // Ensure this namespace is correct
 {
-    public class ImovelDto // Ensure this class name is correct
+    public class ImovelResponseDto // Ensure this class name is correct
     {
-        [Required, MaxLength(100)]
+        public int Id { get; set; }
         public string Titulo { get; set; }
-
-        [MaxLength(500)]
         public string Descricao { get; set; }
-
-        [Range(0, double.MaxValue)]
         public decimal Preco { get; set; }
-
         public bool Publicado { get; set; }
+        public DateTime DataCadastro { get; set; }
     }
 }

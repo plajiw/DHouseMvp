@@ -62,3 +62,4 @@ C:\Users\Auvo\Documents\GitHub\DHouseMvp\DHouseMvp\obj\Debug\net8.0\refint\DHous
 C:\Users\Auvo\Documents\GitHub\DHouseMvp\DHouseMvp\obj\Debug\net8.0\DHouseMvp.pdb
 C:\Users\Auvo\Documents\GitHub\DHouseMvp\DHouseMvp\obj\Debug\net8.0\DHouseMvp.genruntimeconfig.cache
 C:\Users\Auvo\Documents\GitHub\DHouseMvp\DHouseMvp\obj\Debug\net8.0\ref\DHouseMvp.dll
+C:\Users\Auvo\Documents\GitHub\DHouseMvp\DHouseMvp\obj\Debug\net8.0\DHouseMvp.sourcelink.json
