@@ -37,7 +37,7 @@ namespace DHouseMvp.API.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(ImovelResponseDto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<ImovelResponseDto>> Create([FromBody] ImovelDto dto) // Uses ImovelDto
+        public async Task<ActionResult<ImovelResponseDto>> Create([FromBody] ImovelCreateDto dto) // Uses ImovelDto
         {
             if (!ModelState.IsValid)
             {
@@ -51,7 +51,7 @@ namespace DHouseMvp.API.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ImovelResponseDto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<ImovelResponseDto>> Update(int id, [FromBody] ImovelDto dto) // Uses ImovelDto
+        public async Task<ActionResult<ImovelResponseDto>> Update(int id, [FromBody] ImovelCreateDto dto) // Uses ImovelDto
         {
             if (!ModelState.IsValid)
             {

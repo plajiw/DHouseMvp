@@ -9,8 +9,8 @@ namespace DHouseMvp.Application.Interfaces
     {
         Task<List<ServicoResponseDto>> GetAllAsync();
         Task<ServicoResponseDto> GetByIdAsync(int id);
-        Task<ServicoResponseDto> CreateAsync(ServicoDto dto); // Usa ServicoDto
-        Task<ServicoResponseDto> UpdateAsync(int id, ServicoDto dto); // Usa ServicoDto
+        Task<ServicoResponseDto> CreateAsync(ServicoCreateDto dto); // Usa ServicoDto
+        Task<ServicoResponseDto> UpdateAsync(int id, ServicoCreateDto dto); // Usa ServicoDto
         Task<bool> DeleteAsync(int id);
     }
 }

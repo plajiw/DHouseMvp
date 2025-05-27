@@ -1,3 +1,4 @@
+// Core/Entities/ServicoOferecido.cs
 using System.ComponentModel.DataAnnotations;
 
 namespace DHouseMvp.Core.Entities
@@ -7,10 +8,10 @@ namespace DHouseMvp.Core.Entities
         public int Id { get; set; }
 
         [Required, MaxLength(100)]
-        public string Nome { get; set; }
+        public string Nome { get; set; } = string.Empty;
 
         [MaxLength(500)]
-        public string Descricao { get; set; }
+        public string? Descricao { get; set; }
 
         [Range(0, double.MaxValue)]
         public decimal? PrecoBase { get; set; }

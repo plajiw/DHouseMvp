@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Auvo\\Documents\\GitHub\\DHouseMvp\\DHouseMvp\\DHouseMvp.csproj": {}
+    "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\DHouseMvp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Auvo\\Documents\\GitHub\\DHouseMvp\\DHouseMvp\\DHouseMvp.csproj": {
+    "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\DHouseMvp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Auvo\\Documents\\GitHub\\DHouseMvp\\DHouseMvp\\DHouseMvp.csproj",
+        "projectUniqueName": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\DHouseMvp.csproj",
         "projectName": "DHouseMvp",
-        "projectPath": "C:\\Users\\Auvo\\Documents\\GitHub\\DHouseMvp\\DHouseMvp\\DHouseMvp.csproj",
-        "packagesPath": "C:\\Users\\Auvo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Auvo\\Documents\\GitHub\\DHouseMvp\\DHouseMvp\\obj\\",
+        "projectPath": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\DHouseMvp.csproj",
+        "packagesPath": "C:\\Users\\Pablo Ribeiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Auvo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pablo Ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -53,11 +60,15 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -83,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

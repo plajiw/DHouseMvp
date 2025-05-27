@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMvcCore().AddApiExplorer();
 
 var conn = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlite(conn));
+builder.Services.AddDbContext<ApplicationDbContext>(opt => opt.UseNpgsql(conn));
 
 builder.Services.AddScoped<IImovelService, ImovelService>();
 builder.Services.AddScoped<IServicoService, ServicoService>();

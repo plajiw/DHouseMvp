@@ -41,7 +41,7 @@ namespace DHouseMvp.API.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(ServicoResponseDto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<ServicoResponseDto>> Create([FromBody] ServicoDto dto) // Usa ServicoDto
+        public async Task<ActionResult<ServicoResponseDto>> Create([FromBody] ServicoCreateDto dto) // Usa ServicoDto
         {
             if (!ModelState.IsValid)
             {
@@ -55,7 +55,7 @@ namespace DHouseMvp.API.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ServicoResponseDto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<ServicoResponseDto>> Update(int id, [FromBody] ServicoDto dto) // Usa ServicoDto
+        public async Task<ActionResult<ServicoResponseDto>> Update(int id, [FromBody] ServicoCreateDto dto) // Usa ServicoDto
         {
             if (!ModelState.IsValid)
             {

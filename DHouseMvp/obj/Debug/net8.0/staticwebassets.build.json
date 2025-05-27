@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "q8oPikt+bGT+SLE0QJ2Iqulb8qkuppHFQXzNy0qhipI=",
+  "Hash": "9XrM2lk/56mMsN5zkhNAg6aM7PjBpntxVDh+U8n+Jm0=",
   "Source": "DHouseMvp",
   "BasePath": "_content/DHouseMvp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

@@ -9,11 +9,11 @@ namespace DHouseMvp.Application.Mappings
         public MappingProfile()
         {
             // Imovel Mappings
-            CreateMap<ImovelDto, Imovel>();
+            CreateMap<ImovelCreateDto, Imovel>();
             CreateMap<Imovel, ImovelResponseDto>();
 
             // ServicoOferecido Mappings
-            CreateMap<ServicoDto, ServicoOferecido>();
+            CreateMap<ServicoCreateDto, ServicoOferecido>();
             CreateMap<ServicoOferecido, ServicoResponseDto>();
         }
     }

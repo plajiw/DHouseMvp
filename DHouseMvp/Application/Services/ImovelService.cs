@@ -46,7 +46,7 @@ namespace DHouseMvp.Application.Services
             return _mapper.Map<ImovelResponseDto>(entity);
         }
 
-        public async Task<ImovelResponseDto> CreateAsync(ImovelDto dto) // Uses ImovelDto
+        public async Task<ImovelResponseDto> CreateAsync(ImovelCreateDto dto) // Uses ImovelDto
         {
             _logger?.LogInformation("Creating new Imovel");
             var entity = _mapper.Map<Imovel>(dto);
@@ -56,7 +56,7 @@ namespace DHouseMvp.Application.Services
             return _mapper.Map<ImovelResponseDto>(entity);
         }
 
-        public async Task<ImovelResponseDto> UpdateAsync(int id, ImovelDto dto) // Uses ImovelDto
+        public async Task<ImovelResponseDto> UpdateAsync(int id, ImovelCreateDto dto) // Uses ImovelDto
         {
             _logger?.LogInformation("Updating Imovel with Id: {Id}", id);
             var entity = await _ctx.Imoveis.FindAsync(id);

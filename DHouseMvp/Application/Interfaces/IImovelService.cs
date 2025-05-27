@@ -8,8 +8,8 @@ namespace DHouseMvp.Application.Interfaces
     {
         Task<List<ImovelResponseDto>> GetAllAsync();
         Task<ImovelResponseDto> GetByIdAsync(int id);
-        Task<ImovelResponseDto> CreateAsync(ImovelDto dto); // Uses ImovelDto
-        Task<ImovelResponseDto> UpdateAsync(int id, ImovelDto dto); // Uses ImovelDto
+        Task<ImovelResponseDto> CreateAsync(ImovelCreateDto dto); // Uses ImovelDto
+        Task<ImovelResponseDto> UpdateAsync(int id, ImovelCreateDto dto); // Uses ImovelDto
         Task<bool> DeleteAsync(int id);
     }
 }

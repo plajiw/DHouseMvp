@@ -47,7 +47,7 @@ namespace DHouseMvp.Application.Services
             return _mapper.Map<ServicoResponseDto>(entity);
         }
 
-        public async Task<ServicoResponseDto> CreateAsync(ServicoDto dto) // Usa ServicoDto
+        public async Task<ServicoResponseDto> CreateAsync(ServicoCreateDto dto) // Usa ServicoDto
         {
             _logger?.LogInformation("Criando novo Serviço");
             var entity = _mapper.Map<ServicoOferecido>(dto);
@@ -57,7 +57,7 @@ namespace DHouseMvp.Application.Services
             return _mapper.Map<ServicoResponseDto>(entity);
         }
 
-        public async Task<ServicoResponseDto> UpdateAsync(int id, ServicoDto dto) // Usa ServicoDto
+        public async Task<ServicoResponseDto> UpdateAsync(int id, ServicoCreateDto dto) // Usa ServicoDto
         {
             _logger?.LogInformation("Atualizando Serviço com Id: {Id}", id);
             var entity = await _ctx.Servicos.FindAsync(id);
