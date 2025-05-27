@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\api\\controllers\\servicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:api\\controllers\\servicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\api\\controllers\\imoveiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:api\\controllers\\imoveiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\application\\services\\servicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:application\\services\\servicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\application\\services\\imovelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:application\\services\\imovelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\application\\interfaces\\iservicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:application\\interfaces\\iservicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\application\\interfaces\\iimovelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:application\\interfaces\\iimovelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\application\\dtos\\servicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:application\\dtos\\servicocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:application\\dtos\\imovelupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\infrastructure\\data\\note.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:infrastructure\\data\\note.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\core\\note.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -49,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\core\\entities\\imovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:core\\entities\\imovel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|c:\\users\\pablo ribeiro\\documents\\pessoal\\projetos\\dhousemvp\\dhousemvp\\api\\controllers\\servicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{083A5961-5127-0AF2-F976-90D639AD5552}|DHouseMvp.csproj|solutionrelative:api\\controllers\\servicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,50 +98,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServicoUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ServicoUpdateDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\ServicoUpdateDto.cs",
-              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ServicoUpdateDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\ServicoUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:41:39.568Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-27T01:08:31.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ImovelUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ImovelUpdateDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\ImovelUpdateDto.cs",
-              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ImovelUpdateDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\ImovelUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:40:02.155Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-27T01:04:18.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ServicoResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ServicoResponseDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\ServicoResponseDto.cs",
-              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ServicoResponseDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\ServicoResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:33:34.378Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-27T01:02:52.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "ImoveisController.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\API\\Controllers\\ImoveisController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ImoveisController.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\API\\Controllers\\ImoveisController.cs",
+              "RelativeToolTip": "API\\Controllers\\ImoveisController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:57:57.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:56:37.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServicoService.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\Services\\ServicoService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ServicoService.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\Services\\ServicoService.cs",
+              "RelativeToolTip": "Application\\Services\\ServicoService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:55:53.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ImovelService.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\Services\\ImovelService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ImovelService.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\Services\\ImovelService.cs",
+              "RelativeToolTip": "Application\\Services\\ImovelService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:52:42.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IServicoService.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\Interfaces\\IServicoService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IServicoService.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\Interfaces\\IServicoService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IServicoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:51:56.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IImovelService.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\Interfaces\\IImovelService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IImovelService.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\Interfaces\\IImovelService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IImovelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:50:28.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ServicoCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ServicoCreateDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\ServicoCreateDto.cs",
@@ -118,7 +232,82 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServicosController.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\API\\Controllers\\ServicosController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ServicosController.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\API\\Controllers\\ServicosController.cs",
+              "RelativeToolTip": "API\\Controllers\\ServicosController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:52:23.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:57:08.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:16:28.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServicoResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ServicoResponseDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ServicoResponseDto.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ServicoResponseDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\ServicoResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:33:34.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ImovelUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ImovelUpdateDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ImovelUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ImovelUpdateDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\ImovelUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:40:02.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServicoUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ServicoUpdateDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ServicoUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ServicoUpdateDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\ServicoUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:41:39.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ImovelResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ImovelResponseDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\ImovelResponseDto.cs",
@@ -126,12 +315,11 @@
               "RelativeToolTip": "Application\\DTOs\\ImovelResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:32:06.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:32:06.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "ImovelCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\ImovelCreateDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\ImovelCreateDto.cs",
@@ -139,12 +327,11 @@
               "RelativeToolTip": "Application\\DTOs\\ImovelCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:28:20.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:28:20.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "note.md",
               "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Application\\DTOs\\note.md",
               "RelativeDocumentMoniker": "Application\\DTOs\\note.md",
@@ -152,12 +339,11 @@
               "RelativeToolTip": "Application\\DTOs\\note.md",
               "ViewState": "AgIAABcAAAAAAAAAAADwvykAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-05-27T00:27:43.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:27:43.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "note.md",
               "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Infrastructure\\Data\\note.md",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\note.md",
@@ -165,25 +351,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\note.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-05-27T00:16:47.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:16:47.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAjwC4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:16:28.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "note.md",
               "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Core\\note.md",
               "RelativeDocumentMoniker": "Core\\note.md",
@@ -191,12 +363,11 @@
               "RelativeToolTip": "Core\\note.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-05-27T00:11:43.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:11:43.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "Imovel.cs",
               "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Core\\Entities\\Imovel.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\Imovel.cs",
@@ -204,34 +375,7 @@
               "RelativeToolTip": "Core\\Entities\\Imovel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:07:10.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T23:57:08.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ServicosController.cs",
-              "DocumentMoniker": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\API\\Controllers\\ServicosController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\ServicosController.cs",
-              "ToolTip": "C:\\Users\\Pablo Ribeiro\\Documents\\Pessoal\\Projetos\\DHouseMvp\\DHouseMvp\\API\\Controllers\\ServicosController.cs",
-              "RelativeToolTip": "API\\Controllers\\ServicosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T23:52:23.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:07:10.705Z"
             }
           ]
         }

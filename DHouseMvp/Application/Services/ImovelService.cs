@@ -1,14 +1,15 @@
+// Application/Services/ImovelService.cs
 using System.Collections.Generic;
-using System.Linq; // For ProjectTo
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using AutoMapper.QueryableExtensions; // For ProjectTo
-using DHouseMvp.Application.DTOs;    // Crucial: Ensure this is present and NOT duplicated
+using AutoMapper.QueryableExtensions;
+using DHouseMvp.Application.DTOs;   
 using DHouseMvp.Application.Interfaces;
 using DHouseMvp.Core.Entities;
 using DHouseMvp.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging; // Optional: For logging
+using Microsoft.Extensions.Logging;
 
 namespace DHouseMvp.Application.Services
 {

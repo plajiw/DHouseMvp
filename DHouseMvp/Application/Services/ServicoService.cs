@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using DHouseMvp.Application.DTOs;    // DIRETIVA USING ESSENCIAL (verifique se não está duplicada)
+using DHouseMvp.Application.DTOs;
 using DHouseMvp.Application.Interfaces;
 using DHouseMvp.Core.Entities;
 using DHouseMvp.Infrastructure.Data;

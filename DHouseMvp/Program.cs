@@ -10,6 +10,8 @@ using System.Reflection; // For Swagger XML Comments if used
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Add services to the container.
+// Configuração de Serviços (Injeção de Dependência)
 builder.Services.AddMvcCore().AddApiExplorer();
 
 var conn = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -25,17 +27,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "DHouseMvp API", Version = "v1" });
-    // Optional: To include XML comments for better Swagger documentation
-    // var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    // var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    // if (File.Exists(xmlPath))
-    // {
-    //     c.IncludeXmlComments(xmlPath);
-    // }
 });
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
+// Configuração do Pipeline de Requisições HTTP
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -58,7 +55,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "DHouseMvp API V1");
-        c.RoutePrefix = string.Empty;
+        // c.RoutePrefix = string.Empty; // Descomente para acessar Swagger na raiz do site
     });
 }
 else
@@ -68,5 +65,5 @@ else
 }
 
 app.UseHttpsRedirection();
-app.MapControllers();
+app.MapControllers(); // Mapeia as rotas para os seus Controllers
 app.Run();

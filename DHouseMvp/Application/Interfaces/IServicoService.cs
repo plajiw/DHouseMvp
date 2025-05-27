@@ -1,7 +1,7 @@
 // Application/Interfaces/IServicoService.cs
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using DHouseMvp.Application.DTOs; // DIRETIVA USING ESSENCIAL
+using DHouseMvp.Application.DTOs;
 
 namespace DHouseMvp.Application.Interfaces
 {
