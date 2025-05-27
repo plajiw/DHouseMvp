@@ -1,0 +1,57 @@
+/* style.css */
+body {
+    background-color: #e9ecef; /* Um cinza um pouco mais claro */
+    font-size: 0.95rem;
+}
+
+.header {
+    backdrop-filter: blur(10px); /* Efeito de desfoque para o header */
+}
+
+.logo-accent {
+    color: var(--bs-primary);
+}
+
+.card-title i { /* Ícones nos títulos dos cards */
+    font-size: 1.1em; /* Ajusta o tamanho do ícone em relação ao texto */
+}
+
+.list-group-item .actions .btn {
+    padding: 0.2rem 0.4rem; /* Botões de ação menores */
+    font-size: 0.75rem;
+}
+
+.entity-list {
+    max-height: 65vh; /* Altura máxima para as listas com scroll */
+    overflow-y: auto;
+}
+
+/* Adicione um pouco de espaço para as mensagens de alerta */
+#messagesArea .alert {
+    margin-bottom: 1rem;
+}
+
+/* Efeito suave para os cards */
+.card {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.10)!important;
+    transform: translateY(-2px);
+}
+
+.btn-primary, .btn-info {
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+.btn-primary:hover, .btn-info:hover {
+    transform: translateY(-1px);
+}
+.btn-outline-secondary:hover {
+    color: var(--bs-secondary-text-emphasis);
+}
+
+/* Melhor visibilidade para o estado vazio */
+.list-group p.text-muted {
+    padding: 2rem 0;
+    font-style: italic;
+}
